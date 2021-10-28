@@ -56,14 +56,6 @@ export const pageQuery = graphql`
         shortBio {
           shortBio
         }
-        title
-        heroImage: image {
-          gatsbyImageData(
-            layout: CONSTRAINED
-            placeholder: BLURRED
-            width: 1180
-          )
-        }
       }
     }
   }
